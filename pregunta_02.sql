@@ -1,5 +1,5 @@
 -- 
---  La tabla `data` tiene la siguiente estructura:
+--  La tabla `tbl1` tiene la siguiente estructura:
 -- 
 --    K0  CHAR(1)
 --    K1  INT
@@ -18,3 +18,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT COUNT(*)
+FROM tbl1
